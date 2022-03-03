@@ -1,0 +1,17 @@
+{
+  "name": "sync",
+  "version": "0.0.1",
+  "description": "a tool that take xrnx files and make sync files",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf ./tmp && rm -rf ./output",
+    "start": "npm run clean && mkdir ./tmp && mkdir ./output && node index.js"
+  },
+  "author": "kaneel",
+  "license": "ISC",
+  "dependencies": {
+    "fast-xml-parser": "^4.0.4",
+    "inquirer": "^8.2.0",
+    "unzipper": "^0.10.11"
+  }
+}
